@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 960px;
+    background-image: linear-gradient(rgba(72, 163, 224, 0.533),rgba(48, 110, 244, 0.75)),url(https://chitwancollege.edu.np/Frontend/assets/images/homebanner.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.navbar {
+
+    width: full;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 3px 10px rgb(red, green, blue);
+    padding: 0px 45px;
+}
+.logo {
+    height: 100px;
+
+}
+.menu-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.apply-button{
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border:none;
+    justify-content: center ;
+    height: 45px;
+    width: 150px;
+    padding: 5px;
+}
+.menu-list li a{
+    text-decoration: none;
+    color: black;
+}
+.content {
+    font-family: sans-serif;
+    gap: 150px;
+    margin-top: 70px;
+    display: flex;
+    color:rgb(223, 11, 11);
+    margin-right: 30px;
+
+}
+.text{
+    margin-left: 40px;
+    padding: 3px;
+    
+}
+.text1{
+   padding: 5px;
+   margin-top: 70px;
+    text-align: left;
+    height: 20px;
+    font-size: 10px;
+    width: 350px;
+    background-color: white;
+}
+.text2 {
+    padding-top: 20px;
+    font-size: 50px;
+    color: white;
+    
+}
+.content-img{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.buton1 {
+font-size: 18px;
+background-color: rgb(182, 0, 0);
+height: 50px;
+margin-top: 50px;
+margin-bottom: 40px;
+border: none;
+color: white;
+padding: 3px 18px;
+}
+.button2{
+display: flex;
+gap: 50px;
+margin-top: 60px;
+
+}
+.content-button .btn{
+    font-size: 20px;
+    background: transparent;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    transition: all ease-in .3s;
+}
+.header{
+    background-color: rgb(14, 14, 97);
+    height: 50px;
+    
+    align-items: center;
+    width: full;
+}
+.header-list{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    color: white;
+    padding: 15px 80px;
+}
+
+.content-button:hover .btn{
+    color: red;
+    background-color: white;
+    transform: translateX(5px);
+}
+
+
+
+
+
+
